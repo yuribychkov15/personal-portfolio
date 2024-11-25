@@ -1,0 +1,17 @@
+.projects {
+    background-color: #fff;
+    padding: 2rem 1rem;
+    margin-top: 1rem;
+  }
+  
+  .projects h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
